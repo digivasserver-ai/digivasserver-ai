@@ -2,7 +2,15 @@
 
 **AI systems · Kotlin/Android · reliable developer tooling**
 
-I work on practical tools for AI-assisted development and Android. My focus is on durable agent memory, clear security boundaries, reproducible builds, and small fixes backed by tests. I separate working prototypes from shipped features.
+**[digivasserver-ai.github.io](https://digivasserver-ai.github.io/)** · [X](https://x.com/DIGIvasCoNNeCt) · [divivas.server@gmail.com](mailto:divivas.server@gmail.com)
+
+I work on practical tools for AI-assisted development and Android. My focus is on durable agent memory, clear security boundaries, reproducible builds, and small fixes backed by tests. I separate working prototypes from shipped features — and I write down what I could not verify.
+
+## Start here
+
+- **[durable-sh](https://github.com/digivasserver-ai/durable-sh)** — shell primitives for environments that kill short-lived processes: inherited signal immunity, atomic writes, parent-shell retries, git lock recovery. MIT, 18/18 tests, [tagged releases](https://github.com/digivasserver-ai/durable-sh/releases).
+- **[Signal 36: the Android profiler that kills your shell scripts](https://digivasserver-ai.github.io/signal-36.html)** — why `git`, `python3` and `rpm` randomly exit 164, with the measured kill rates and the one-line fix.
+- **[mcp-audit-toolkit](https://github.com/digivasserver-ai/mcp-audit-toolkit)** — audits MCP servers the way a client talks to them: credential-fingerprint leak scanning and stdio health probes.
 
 ## AI systems
 
@@ -20,7 +28,20 @@ I also run a private Android/Termux assistant lab with versioned state, audit lo
 
 My daily test environment is Android 16 with an aarch64 openSUSE Tumbleweed proot terminal, ADB and Shizuku. It exposes platform assumptions that desktop-only builds can miss.
 
+## Writing
+
+- **[Signal 36: the Android profiler that kills your shell scripts](https://digivasserver-ai.github.io/signal-36.html)** — root cause, measurements, fix, and the four things still unexplained.
+- **[Building Android apps on an ARM64 phone](https://digivasserver-ai.github.io/arm64.html)** — the `aapt2` override, the compileSdk 37 hand-install, and the Gradle traps that cost the most time.
+
 ## Other tooling
 
 - **[durable-sh](https://github.com/digivasserver-ai/durable-sh)** — shell primitives for atomic writes, retries, Git recovery and process supervision; 18/18 local tests pass.
 - **[MCP audit toolkit](https://github.com/digivasserver-ai/mcp-audit-toolkit)** — a leak scanner and MCP health probe. Related [SUSE MCP fixes](https://github.com/chrisjohntapp/suse-mcp/pulls?q=is%3Apr+author%3Adigivasserver-ai) are proposed upstream, not merged.
+
+## A note on older pull requests
+
+Some pull requests from August–September 2026 were bounty work against small repositories. Several are still open, and one target repository has since been deleted. That phase is over: current work is security and build fixes in projects I actually use — memanto, microG, UpgradeAll and suse-mcp — plus the repositories above.
+
+## Contact
+
+Email [divivas.server@gmail.com](mailto:divivas.server@gmail.com) for security reports or collaboration. Vulnerabilities should go there rather than into a public issue; see each repository's `SECURITY.md`.
