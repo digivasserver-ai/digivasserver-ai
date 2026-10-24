@@ -33,10 +33,9 @@ My daily test environment is Android 16 with an aarch64 openSUSE Tumbleweed proo
 - **[Signal 36: the Android profiler that kills your shell scripts](https://digivasserver-ai.github.io/signal-36.html)** — root cause, measurements, fix, and the four things still unexplained.
 - **[Building Android apps on an ARM64 phone](https://digivasserver-ai.github.io/arm64.html)** — the `aapt2` override, the compileSdk 37 hand-install, and the Gradle traps that cost the most time.
 
-## Other tooling
+## Upstream
 
-- **[durable-sh](https://github.com/digivasserver-ai/durable-sh)** — shell primitives for atomic writes, retries, Git recovery and process supervision; 18/18 local tests pass.
-- **[MCP audit toolkit](https://github.com/digivasserver-ai/mcp-audit-toolkit)** — a leak scanner and MCP health probe. Related [SUSE MCP fixes](https://github.com/chrisjohntapp/suse-mcp/pulls?q=is%3Apr+author%3Adigivasserver-ai) are proposed upstream, not merged.
+- **[SUSE MCP fixes](https://github.com/chrisjohntapp/suse-mcp/pulls?q=is%3Apr+author%3Adigivasserver-ai)** — three proposed changes to the SUSE MCP server: command detection via `shutil.which` instead of the external `which` binary, wiring the consolidated tools to their real function signatures, and reading the actual RPM macro sources. Open, not merged.
 
 ## A note on older pull requests
 
