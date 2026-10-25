@@ -2,7 +2,7 @@
 
 **AI systems · Kotlin/Android · reliable developer tooling**
 
-**[digivasserver-ai.github.io](https://digivasserver-ai.github.io/)** · [X](https://x.com/DIGIvasCoNNeCt) · [divivas.server@gmail.com](mailto:divivas.server@gmail.com)
+**[digivasserver-ai.github.io](https://digivasserver-ai.github.io/)** · [X](https://x.com/DIGIvasCoNNeCt) · [digivas.server@gmail.com](mailto:digivas.server@gmail.com)
 
 I work on practical tools for AI-assisted development and Android. My focus is on durable agent memory, clear security boundaries, reproducible builds, and small fixes backed by tests. I separate working prototypes from shipped features — and I write down what I could not verify.
 
@@ -43,4 +43,4 @@ Some pull requests from August–September 2026 were bounty work against small r
 
 ## Contact
 
-Email [divivas.server@gmail.com](mailto:divivas.server@gmail.com) for security reports or collaboration. Vulnerabilities should go there rather than into a public issue; see each repository's `SECURITY.md`.
+Email [digivas.server@gmail.com](mailto:digivas.server@gmail.com) for security reports or collaboration. Vulnerabilities should go there rather than into a public issue; see each repository's `SECURITY.md`.
